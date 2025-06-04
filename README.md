@@ -17,16 +17,19 @@ This project demonstrates a complete **ETL (Extract, Transform, Load)** pipeline
 ### ✅ Extract
 - Pulled the sales dataset directly from **Kaggle’s cloud repository** using the **Kaggle API** into a **Jupyter Notebook** environment.
 
+
 ### ✅ Transform
 - Cleaned and transformed data using **Pandas**:
   - Removed duplicate records
   - Handled and imputed missing/null values
   - Reformatted columns (e.g., date/time, category fields) for consistency and usability
 
+https://github.com/shiv-shankar-kumar/walmart_dataset/blob/main/project.ipynb
 
 ### ✅ Load
 - Loaded the cleaned dataset into a **local MySQL database** using **SQLAlchemy’s `create_engine()`** method.
 
+https://github.com/shiv-shankar-kumar/walmart_dataset/blob/main/sql_query.ipynb
 
 ---
 
